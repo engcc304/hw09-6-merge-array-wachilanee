@@ -107,9 +107,7 @@ int main() {
             }
         }
     }
-
-    printf( "Array3 = " ) ;
-
+    
     N3 = N1 + N2 ;
     for ( i = 0 ; i < N1 ; i++ ) {
     num3[ i ] = num1[ i ];
