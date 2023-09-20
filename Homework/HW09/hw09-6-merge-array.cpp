@@ -70,7 +70,7 @@
 
 int main() {
     
-    int N1, N2, N3, num1[ 100 ], num2[ 100 ], num3[ 100 ], i, j, hold ;
+    int N1, N2, N3, num1[ 100 ], num2[ 100 ], num3[ 100 ], i, j, hold = 0 ;
 
     printf( "Enter element of Array1 :\n" ) ;
     scanf( "%d", &N1 ) ;
@@ -107,7 +107,7 @@ int main() {
             }
         }
     }
-    
+
     N3 = N1 + N2 ;
     for ( i = 0 ; i < N1 ; i++ ) {
     num3[ i ] = num1[ i ];
