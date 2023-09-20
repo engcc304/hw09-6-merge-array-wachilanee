@@ -99,7 +99,7 @@ int main() {
     }
 
     for ( i = 0 ; i < N2 ; i++ ) {
-        for ( int j = i + 1 ; j < N1 ; j++ ) {
+        for ( int j = i + 1 ; j < N2 ; j++ ) {
             if ( num2[ i ] > num2[ j ] ) {
                 hold = num2[ j ] ;
                 num2[ j ] = num2[ i ] ;
